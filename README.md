@@ -1,29 +1,40 @@
-# todo-vue
+# ToDo Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+O **ToDo Vue** é uma aplicação simples e funcional para gerenciamento de tarefas, desenvolvida com **Vue.js**. Com ele, você pode adicionar, marcar como concluídas e excluir tarefas da sua lista — tudo com uma interface limpa e responsiva.
 
-## Recommended IDE Setup
+## 🛠️ Tecnologias Utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue.js** – Framework progressivo JavaScript para construção de interfaces
+- **JavaScript** – Linguagem principal de lógica da aplicação
+- **HTML/CSS** – Estrutura e estilo da interface
 
-## Customize configuration
+## ✨ Funcionalidades
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Adição de novas tarefas
+- Marcar tarefas como concluídas
+- Exclusão de tarefas
+- Interface leve e responsiva
 
-## Project Setup
+## 📦 Como Rodar Localmente
 
-```sh
+Siga os passos abaixo para rodar o projeto na sua máquina:
+
+```bash
+# Clone o repositório
+git clone https://github.com/aliceherrera/todo_vue.git
+cd todo_vue
+
+# Instale as dependências
 npm install
+
+# Rode a aplicação
+npm run serve
 ```
+A aplicação estará disponível em http://localhost:8080 ou na porta indicada no terminal.
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
+## 📌 Observações
 
-### Compile and Minify for Production
+Este projeto foi desenvolvido como prática de Vue.js, focando em componentes reativos, manipulação de estado local e organização do código.
 
-```sh
-npm run build
-```
+por Alice Herrera
